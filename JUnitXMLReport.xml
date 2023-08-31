@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="3" time="0.091" timestamp="2023-08-27T21:45:03.519857" hostname="DESKTOP-0N5DKQD"><testcase classname="pages.test_delete1" name="test_1" time="0.001" /><testcase classname="pages.test_delete1" name="test_11" time="0.001"><failure message="AssertionError: 2222..&#10;assert 5 == 51">def test_11():
+        ca=5
+        cb=51
+&gt;       assert ca==cb,"2222.."
+E       AssertionError: 2222..
+E       assert 5 == 51
+
+pages\test_delete1.py:10: AssertionError</failure></testcase><testcase classname="pages.test_delete2" name="test_111" time="0.001"><failure message="AssertionError: 3333..&#10;assert 51 == 52">def test_111():
+        aa=51
+        ab=52
+&gt;       assert aa==ab,"3333.."
+E       AssertionError: 3333..
+E       assert 51 == 52
+
+pages\test_delete2.py:5: AssertionError</failure></testcase></testsuite></testsuites>
